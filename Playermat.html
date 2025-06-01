@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matématica</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a class="github" href="https://github.com/RhyanO2">@RhyanO2</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Playermat.html">Matemática</a></li>
+                <li><a href="Playerphy.html">Física</a></li>
+                <label class="switch">
+                    <input type="checkbox" id="dark" onchange="darkMode()">
+                    <span class="slider round"></span>
+                </label>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <div class="divAula">
+            <h2 id="tituloAula"></h2>
+            <iframe id="iframeAula" src="" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="aulas-lista">
+            
+                <div>
+                    <h2>Manipulação algébrica</h2>
+                    <a class="aula-link" href="#" onclick="abrirAula('c06d3593-bfc4-474a-a29c-b942e6cebf61', 'Aula-1')">Aula-1</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('fc6c82e9-213c-4be1-bcdb-336e2e35f3b9', 'Aula-2')">Aula-2</a>
+                </div>
+                <div>
+                    <h2>Funções e sistemas de equações</h2>
+                    <a class="aula-link" href="#" onclick="abrirAula('d8021961-aae5-4699-92f8-80652433e4a1', 'Aula-3')">Aula-3</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('63bd3998-e68a-41cd-b18a-abe42761a18a', 'Aula-4')">Aula-4</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('ebbc9e89-c0a1-4045-8de0-50ac15e3d017', 'Aula-5')">Aula-5</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('fafa647d-73af-4115-9701-0e04d9047fa1', 'Aula-6')">Aula-6</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('a2d6e6ca-211f-439b-89ed-860d38df461d', 'Aula-7')">Aula-7</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('b3358e8c-94f1-4075-9c77-6a198baceb02', 'Aula-8')">Aula-8</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('4f245fae-c28b-4ab6-ab02-280962fb91b4', 'Aula-9')">Aula-9</a>
+                    
+    
+                </div>
+                <div>
+                    <h2>Trigonômetria</h2>
+                    <a class="aula-link" href="#" onclick="abrirAula('64b0883e-f179-4f07-8eed-547b2ad55726', 'Aula-11')">Aula-11</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('fea782d2-003d-4c52-9145-e0bc4db1f84c', 'Aula-12')">Aula-12</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('957461a8-64e8-49bf-9354-4311bfde8087', 'Aula-13')">Aula-13</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('786c4f6e-fd88-4d70-b7f5-1e6651b631bf', 'Aula-14')">Aula-14</a>
+                    
+                </div>
+                <div>
+                    <h2>Aritmética</h2>
+                    <a class="aula-link" href="#" onclick="abrirAula('57035e23-b7bb-4558-be62-a1941409b445', 'Aula-15')">Aula-15</a><!--MMC e MDC-->
+                    <a class="aula-link" href="#" onclick="abrirAula('e4c734c4-7201-4bd6-b0dd-1efe0856f6c4', 'Aula-16')">Aula-16</a><!--Porcentagem-->
+                </div>
+                <div>
+                    <h2>Razão e Proporação</h2>
+                    <a class="aula-link" href="#" onclick="abrirAula('0485a1ec-48c6-4744-a896-0b2aafb9b867', 'Aula-17')">Aula-17</a>       <!--Razão e Proporação-->
+                    <a class="aula-link" href="#" onclick="abrirAula('bdfe3489-1b4e-4aa2-959e-0fa86d7e9882', 'Aula-18')">Aula-18</a>       <!--Razão e Proporação-->
+                </div>
+                <div>
+                    <h2>Escalas</h2>
+                      <a class="aula-link" href="#" onclick="abrirAula('612716ea-6d01-432c-b3b7-8aa7d4bd008b', 'Aula-19')">Aula-19</a><!--Escalas-->
+                </div>
+                <div>
+                    <h2>P.A e P.G</h2>
+                    <a class="aula-link" href="#" onclick="abrirAula('451afda9-ed23-464f-85ec-41caf64d809b', 'Aula-20')">Aula-20</a><!--P.A e P.G-->
+                    <a class="aula-link" href="#" onclick="abrirAula('b8a82978-45f6-48db-89bb-a8f5bf4569db', 'Aula-21')">Aula-21</a><!--P.A e P.G-->
+                </div>
+                <div>
+                    <h2>Juros Simples e Compostos</h2>
+                    <a class="aula-link" href="#" onclick="abrirAula('c7bb72fb-b9fe-421e-85fe-77e58fe08c79', 'Aula-22')">Aula-22</a><!--Mat. Financeira(Juros simples e compostos)-->
+                    <a class="aula-link" href="#" onclick="abrirAula('690cb10c-2cbb-48ce-af59-fdea8dc7b0c1', 'Aula-23')">Aula-23</a><!--Mat. Financeira(Juros simples e compostos)-->
+                </div>
+                <div>
+                    <h2>Análise Combinatória</h2>
+                    <a class="aula-link" href="#" onclick="abrirAula('f6ec521b-6f78-48c9-8fcb-75779a7f489d', 'Aula-24')">Aula-24</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('22540b97-038e-49f6-9784-4821e250adc6', 'Aula-25')">Aula-25</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('ac6a0ec4-6b5f-44e3-97f3-aa4e0a837130', 'Aula-26')">Aula-26</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('9694a5a3-938b-47a8-9ed4-c8e421523e4b', 'Aula-27')">Aula-27</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('a5884a6f-e8b0-4a9c-9d03-4186476d6318', 'Aula-28')">Aula-28</a>
+                   
+                </div>
+                <div>
+                    <h2>Geometria Espacial</h2>
+                    <a class="aula-link" href="#" onclick="abrirAula('6bb113cb-ce29-4d1e-b1f6-66b712a70cb1', 'Aula-29')">Aula-29</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('b61f3f8f-b920-4ccd-a03b-3e674dcfc379', 'Aula-30')">Aula-30</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('406167fb-8a7a-44af-b66f-487cb7db3b43', 'Aula-31')">Aula-31</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('d20ea943-ae06-487e-80e4-48e51449426d', 'Aula-32')">Aula-32</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('dd1344e9-ea6c-414b-83b8-6b91cf32320d', 'Aula-33')">Aula-33</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('17fa9d92-50f8-4fc7-8fee-9086d5cbdcd1', 'Aula-34')">Aula-34</a>
+                </div>
+                <div>
+                    <h2>Geometria Plana</h2>
+                    <a class="aula-link" href="#" onclick="abrirAula('28303b75-95c7-4883-9999-6df861856841', 'Aula-10')">Aula-10</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('7b7c5b02-de36-40e0-b81e-3195392520e2', 'Aula-35')">Aula-35</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('0b92b85e-9d1f-461e-b431-fd861559162f', 'Aula-36')">Aula-36</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('413e2257-8d65-4511-8814-0248152085a3', 'Aula-37')">Aula-37</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('3b4d67b7-d9a1-4609-8c3b-a46ec6c646a9', 'Aula-38')">Aula-38</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('a81201c7-c50b-44a3-bc4e-931973b3501c', 'Aula-39')">Aula-39</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('8d093b84-5dce-4d0b-b87c-a1baa4f564fa', 'Aula-40')">Aula-40</a>
+                </div>
+                <div>
+                    <h2>Estátistica e Probabilidade</h2>
+                    <a class="aula-link" href="#" onclick="abrirAula('cab5744b-c2c4-4b09-941c-4f27db5a429c', 'Aula-41')">Aula-41</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('e8f4a405-5d74-4767-9d8d-51e8faff3103', 'Aula-42')">Aula-42</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('534c312f-0eca-4135-b4de-2203a9a7053e', 'Aula-43')">Aula-43</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('2879b190-4d84-43a8-8c47-97b73dfb1783', 'Aula-44')">Aula-44</a>
+                    <a class="aula-link" href="#" onclick="abrirAula('0a264db7-348c-4a3a-842e-13a93d69bf5a', 'Aula-45')">Aula-45</a>
+                </div>
+            
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+  
+</body>
+</html>

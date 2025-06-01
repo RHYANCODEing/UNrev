@@ -176,44 +176,18 @@ main {
   background-color: #1976D2;
 }
  
-  @media (max-width: 740px){
-  
-  .aulas-lista {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 0 8px;
-  }
-  .aulas-lista > div {
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    padding: 12px;
-  }
-  .aulas-lista h2 {
-    font-size: 1.1em;
-    margin-bottom: 8px;
-  }
-  .aula-link {
-    display: inline-block;
-    margin: 4px 4px 0 0;
-    padding: 6px 12px;
-    background: #f0f0f0;
-    border-radius: 4px;
-    font-size: 1rem;
+  @media (max-width: 750px){
 
-  }
+ 
   .dark-mode {
   background-color: #494949;
-  main{
-    background-color: #2b2b2b;
-    color:white ;
-    .aulas-lista > div {
-    background: #353535;
-    
+  
   }
+.options{
+  display: flex;
+  flex-direction: column;
   }
 }
-}
+
   
 
